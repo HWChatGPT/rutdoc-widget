@@ -32,7 +32,8 @@
   `;
 
   const iframe = document.createElement("iframe");
-  iframe.src = "https://chatgpt.com/g/g-6836fecf95888191b000dfccf3835755-rutdoc";
+  iframe.src = "https://rutdoc-chat.vercel.app";
+
   iframe.style = "border: none; width: 100%; height: 100%;";
 
   modal.appendChild(iframe);
